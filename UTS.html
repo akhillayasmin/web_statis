@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Majestic Cinema</title>
+    <link rel="icon" type="image/x-icon" href="img/CINEMA.png" />
+    <!--CSS Link-->
+    <link rel="stylesheet" href="UTS.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <ul class="sidemenu">
+        <a href="#main-home"><li>home</li></a>
+        <a href="#about"><li>about</li></a>
+        <a href="#upcoming"><li>gallery</li></a>
+        <a href="#registration"><li>registration</li></a>
+        <a href="#contact"><li>contact</li></a>
+      </ul>
+    </div>
+
+    <div id="main">
+      <header>
+        <a href="#" class="logo"><img src="img/CINEMA (1).png" alt="" /></a>
+
+        <ul class="navmenu">
+          <li><a href="#main-home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#upcoming">gallery</a></li>
+          <li><a href="#registration">registration</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+
+        <div class="nav-icon">
+          <a href="#"><i class="bx bx-search"></i></a>
+          <a href="#"><i class="bx bx-user"></i></a>
+
+          <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+      </header>
+
+      <section class="main-home" id="main-home">
+        <div class="main-text">
+          <h5>Majestic Cinema</h5>
+          <h1>
+            UPCOMING <br />
+            MOVIES
+          </h1>
+          <p>Find information on the latest movies here</p>
+
+          <a href="#upcoming" class="main-btn"
+            >Find out now <i class="bx bx-right-arrow-alt"></i
+          ></a>
+        </div>
+
+        <div class="down-arrow">
+          <a href="#about" class="down"><i class="bx bx-down-arrow-alt"></i></a>
+        </div>
+      </section>
+
+      <!--Tentang Majestic Cinema-->
+      <section class="about" id="about">
+        <div class="Tentang">
+          <img src="img/logo.png" alt="" />
+          <p>
+            Majestic denotes anything magnificent, strong, or worthy of awe and
+            reverence. Majestic Cinema, as the name suggests, is a site where
+            you may learn about future films. All movie genres, such as romance,
+            horror, comedy, action, and so on, will be constantly updated here.
+            Hopefully, this website will help moviegoers avoid missing out on
+            new releases.
+          </p>
+        </div>
+      </section>
+
+      <!--UPCOMING MOVIES-->
+      <section class="upcoming" id="upcoming">
+        <div class="center-text">
+          <h2>Upcoming <span>Movies</span></h2>
+        </div>
+
+        <div class="movies">
+          <div class="row" id="film-01">
+            <a href="./detail.html?id=film-01">
+              <img src="img/the dive.jpg" alt="" />
+            </a>
+            <div class="movies-text">
+              <h5>The Dive</h5>
+            </div>
+            <br />
+            <div class="rating R13">R13+</div>
+          </div>
+
+          <div class="row" id="film-02">
+            <a href="./detail.html?id=film-02">
+              <img src="img/the animal kingdom.jpg" alt="" />
+            </a>
+            <div class="movies-text">
+              <h5>The Animal Kingdom</h5>
+            </div>
+            <br />
+            <div class="rating D17">D17+</div>
+          </div>
+
+          <div class="row" id="film-03">
+            <a href="./detail.html?id=film-03">
+              <img src="img/The Three Musketeers D-Artagnan.jpg" alt="" />
+            </a>
+            <div class="movies-text">
+              <h5>The Three Musketeers: D'Artagnan</h5>
+            </div>
+            <br />
+            <div class="rating R13">R13+</div>
+          </div>
+
+          <div class="row" id="film-04">
+            <a href="./detail.html?id=film-04">
+              <img src="img/wonka.jpg" alt="" />
+            </a>
+            <div class="movies-text">
+              <h5>Wonka</h5>
+            </div>
+            <br />
+            <div class="rating semua-umur">SU</div>
+          </div>
+
+          <div class="row" id="film-05">
+            <a href="./detail.html?id=film-05">
+              <img src="img/wonka imax 2d.jpg" alt="" />
+            </a>
+            <div class="movies-text">
+              <h5>Wonka (IMAX 2D)</h5>
+            </div>
+            <br />
+            <div class="rating semua-umur">SU</div>
+          </div>
+
+          <div class="row" id="film-06">
+            <a href="./detail.html?id=film-06">
+              <img src="img/next goal wins.jpg" alt="" />
+            </a>
+            <div class="movies-text">
+              <h5>Next Goal Wins</h5>
+            </div>
+            <br />
+            <div class="rating R13">R13+</div>
+          </div>
+
+          <div class="row" id="film-07">
+            <a href="./detail.html?id=film-07">
+              <img src="img/rumah masa depan.jpg" alt="" />
+            </a>
+            <div class="movies-text">
+              <h5>Rumah Masa Depan</h5>
+            </div>
+          </div>
+
+          <div class="row" id="film-08">
+            <a href="./detail.html?id=film-08">
+              <img src="img/malam para jahanam.jpg" alt="" />
+            </a>
+            <div class="movies-text">
+              <h5>Malam Para Jahanam</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="registration">
+        <!--BAGIAN FORM-->
+        <h1 style="background-color: white; text-align: center">
+          Registration
+        </h1>
+        <div class="form-regis">
+          <form>
+            <label for="nama">Nama:</label><br />
+            <input type="text" /><br />
+            <label for="ID">Email:</label><br />
+            <input type="text" /><br />
+            <label for="ID">Password:</label><br />
+            <input type="text" /><br />
+
+            <br />
+            <hr />
+            <br />
+
+            <button
+              class="bt-primary"
+              type="submit"
+              onclick="alert ('thankyou')"
+            >
+              Submit here
+            </button>
+            <button class="bt-cancel" type="reset">Reset</button>
+          </form>
+        </div>
+      </section>
+
+      <!--Contact section-->
+      <section class="footer" id="contact">
+        <div class="contact-info">
+          <p>design by: Akhilla Alanza Yasmin</p>
+
+          <div class="social-icon">
+            <a href="https://www.instagram.com/alnzysmn"
+              ><i class="bx bxl-instagram-alt"></i> alnzysmn</a
+            >
+            <br />
+            <a href="https://wa.me/0881024145446"
+              ><i class="bx bxs-phone-call"></i> 0881024145446</a
+            >
+            <br />
+            <a
+              href="https://mail.google.com/mail/u/2/#search/akhilla.yasmin943%40gmail.com?compose=new"
+              ><i class="bx bxs-envelope"></i> akhilla.yasmin943@gmail.com</a
+            >
+            <br />
+            <a><i class="bx bxs-copyright"></i> Copyright</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="UTS.js"></script>
+  </body>
+</html>
